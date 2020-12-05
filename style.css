@@ -29,6 +29,10 @@ a:hover{
     border: solid black 1px;
     position: relative;
     display: block;
-    padding-right: 0px;
+    padding: 5px 0px;
+    display: none;
+}
 
+#nav-menu>ul>li:nth-child(2):hover >#hodot-dropdown{
+    display: block;
 }
