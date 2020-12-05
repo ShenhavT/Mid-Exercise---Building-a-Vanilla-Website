@@ -1,3 +1,7 @@
+body{
+    direction: rtl;
+    text-align: right;
+}
 #nav-menu>ul{
     display: flex;
     list-style: none;
