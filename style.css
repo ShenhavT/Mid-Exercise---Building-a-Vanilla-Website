@@ -1,6 +1,9 @@
 body{
     direction: rtl;
     text-align: right;
+    font-family: arial;
+    margin:0;
+    width:727px;
 }
 #nav-menu>ul{
     display: flex;
