@@ -6,3 +6,11 @@ body{
     display: flex;
     list-style: none;
 }
+#nav-menu>ul>li>a{
+    text-decoration: none;
+}
+
+#header{
+    background-color: gray;
+}
+
