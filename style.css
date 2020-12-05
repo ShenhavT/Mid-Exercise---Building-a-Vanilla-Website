@@ -18,6 +18,11 @@ ul>li>a{
 
 #header{
     background-color: gray;
+    font-size: 15px;
+}
+a:hover{
+    text-decoration: underline;
+    color: #005CA0;
 }
 
 #hodot-dropdown{
