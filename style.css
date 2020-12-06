@@ -25,13 +25,15 @@ li{
 }
 ul>li>a{
     text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    height: 100%
 }
 
 #header{
+    position: relative;
     background:url(images/header_bg.png);
     color: white;
-    font-size: 15px;
-    width: 100%;
     height: 105px;
 }
 a:hover{
@@ -67,6 +69,33 @@ a:hover{
 }
 #nav-menu>ul>li:nth-child(15):hover>#news-dropdown{
     display: block;
+}
+#searchBox-continer{
+    position: absolute;
+    top:20px;
+    left:40px;
+    width:152px;
+}
+#input-box{
+    float: right;
+    width: 132px;
+    height: 19px;
+    background: url(images/search_input.png) no-repeat 0 0;
+}
+#link-search{
+    display: inline-block;
+    background: url(images/search_button.png) no-repeat 0 0;;
+    float: left;
+    width: 19px;
+    height: 19px;
+}
+#search-text-box{
+    position: relative;
+    top: 2px;
+    right: 4px;
+    width: 126px;
+    background: transparent; /*do shadow*/
+    border: 0 none;
 }
 .center-page{
     width: 900px;
