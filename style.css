@@ -54,3 +54,21 @@ a:hover{
 #nav-menu>ul>li:nth-child(8):hover>#news-dropdown{
     display: block;
 }
+
+#fixedfooter {
+    width: 100%;
+    height: 38px;
+    position: fixed;
+    bottom: 0px;
+    background: gray;
+    color: white;
+}
+.menu-dwonbar >ul{
+    display: flex;
+    list-style: none;
+}
+#fixedfooter .container {
+    width: 900px;
+    height: 100%;
+    margin: 0 auto;
+}
