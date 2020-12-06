@@ -18,7 +18,7 @@ ul>li>a{
 }
 
 #header{
-    background: gray;
+    background:url(images/header_bg.png);
     color: white;
     font-size: 15px;
     width: 100%;
@@ -64,7 +64,7 @@ a:hover{
     height: 38px;
     position: fixed;
     bottom: 0px;
-    background: gray;
+    background: url(images/footer_bg.png), grey;
     color: white;
 }
 .menu-dwonbar >ul{
