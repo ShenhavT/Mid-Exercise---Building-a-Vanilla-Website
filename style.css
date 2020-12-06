@@ -6,7 +6,12 @@ body{
     text-align: right;
     font-family: 'Arial (Hebrew)', Arial;;
     margin: 0px;
-
+    background: #fff url(images/header_bg.png) repeat-x center top
+}
+#container{
+    width: 900px;
+    margin: 0 auto;
+    padding-bottom: 30px;
 }
 #nav-menu>ul{
     display: flex;
