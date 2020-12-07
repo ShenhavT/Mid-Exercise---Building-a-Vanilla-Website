@@ -152,6 +152,11 @@ p{
     color: white;
     right: 0;
 }
+.lower-cube{
+    background: rgb(185, 176, 176); /*!work*/
+    width: 244px;
+    height: 216px;
+}
 .menu-dwonbar >ul{
     display: flex;
 }
