@@ -41,8 +41,10 @@ ul>li>a{
 #header{
     position: relative;
     background:url(images/header_bg.png);
-    color: white;
     height: 105px;
+}
+a{
+    color:white;
 }
 a:hover{
     text-decoration: underline;
