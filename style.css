@@ -69,25 +69,13 @@ a:hover{
     top:72px;
     margin-right: 143px;
 }
-#nav-menu>ul>li:nth-child(2):hover>#hodot-dropdown{
-    display: block;
-}
-#nav-menu>ul>li:nth-child(3):hover>#hativot-dropdwon{
-    display: block;
-}
-#nav-menu>ul>li:nth-child(4):hover>#haharayut-dropdwon{
-    display: block;
-}
-#nav-menu>ul>li:nth-child(5):hover>#conection-dropdwon{
-    display: block;
-}
-#nav-menu>ul>li:nth-child(6):hover>#our-station-dropdwon{
-    display: block;
-}
-#nav-menu>ul>li:nth-child(7):hover>#carrier-dropdown{
-    display: block;
-}
-#nav-menu>ul>li:nth-child(8):hover>#news-dropdown{
+#nav-menu>ul>#hodot:hover>#hodot-dropdown,
+#nav-menu>ul>#hativot:hover>#hativot-dropdwon,
+#nav-menu>ul>#haharayut:hover>#haharayut-dropdwon,
+#nav-menu>ul>#conection:hover>#conection-dropdwon,
+#nav-menu>ul>#our-station:hover>#our-station-dropdwon,
+#nav-menu>ul>#carrier:hover>#carrier-dropdown,
+#nav-menu>ul>#news:hover>#news-dropdown{
     display: block;
 }
 #searchBox-continer{
