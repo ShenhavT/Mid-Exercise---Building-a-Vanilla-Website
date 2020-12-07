@@ -157,6 +157,12 @@ p{
     width: 244px;
     height: 216px;
 }
+#gaz-direction ul>li>a{
+    color: #72716d;
+}
+#gaz-direction ul>li>a:hover{
+    color: #005CA0;
+}
 .menu-dwonbar >ul{
     display: flex;
 }
