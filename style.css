@@ -150,6 +150,7 @@ p{
     bottom: 0px;
     background: url(images/footer_bg.png), grey;
     color: white;
+    right: 0;
 }
 .menu-dwonbar >ul{
     display: flex;
