@@ -146,6 +146,15 @@ p{
 p{
     font-size: 13px; 
 }
+
+.read-more{
+    background: url(images/read_more_white.png) no-repeat left center;
+    position: relative;
+    bottom: 6px;
+    font-size: 13px;
+    float: left;
+    padding-left:12px;
+}
 .clearfix::after{
     content: "";
     clear: both;
