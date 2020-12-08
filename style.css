@@ -174,15 +174,37 @@ p{
     background: url(images/small_cube_bg.png) no-repeat 0 0;
     height: 216px;
     padding: 0 24px;
+} 
+.lower-cube>p{
+    color: #575757;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    margin-top: 6px;
 }
 .lower-cubes{
     margin-top: 18px;
 }
-#gaz-direction ul>li>a{
+.more-details{
     color: #72716d;
 }
-#gaz-direction ul>li>a:hover{
+.gaz-direction, .more-details{
+    color: #72716d;
+    font-size: 13px;
+    background: url(images/read_more_yellow.png) no-repeat left center;
+    padding-left: 12px;
+}
+.more-details{
+    float: left;
+}
+.gaz-direction:hover{
     color: #005CA0;
+}
+#img-row2{
+
+}
+#img-israel{
+    float: left;
 }
 .menu-dwonbar >ul{
     display: flex;
