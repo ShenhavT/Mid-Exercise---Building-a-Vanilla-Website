@@ -11,7 +11,8 @@ body{
 #container{
     width: 900px;
     margin: 0 auto;
-    padding-bottom: 30px;
+    padding-bottom: 30px; /*to work*/
+    margin-bottom: 30px;
 }
 #nav-menu>ul{
     display: flex;
@@ -170,9 +171,12 @@ p{
     right: 0;
 }
 .lower-cube{
-    background: rgb(185, 176, 176); /*!work*/
-    width: 244px;
+    background: url(images/small_cube_bg.png) no-repeat 0 0;
     height: 216px;
+    padding: 0 24px;
+}
+.lower-cubes{
+    margin-top: 18px;
 }
 #gaz-direction ul>li>a{
     color: #72716d;
