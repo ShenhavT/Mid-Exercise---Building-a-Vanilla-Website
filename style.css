@@ -35,7 +35,7 @@ ul>li>a{
     text-decoration: none;
     font-size: 15px;
     font-weight: bold;
-    height: 100%
+    height: 100%;
 }
 #header .logo-paz{
     display: block;
@@ -45,6 +45,16 @@ ul>li>a{
     bottom: -20px;
     right: -8px;
     background: url(images/paz_logo.png) no-repeat 0 0;
+}
+.english-link{
+    position: absolute;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 35px;
+    top: 25px;
+    left: 180px;
+    text-decoration: none;
 }
 #header{
     position: relative;
@@ -193,6 +203,7 @@ p{
     font-size: 13px;
     background: url(images/read_more_yellow.png) no-repeat left center;
     padding-left: 12px;
+    text-decoration: underline;
 }
 .more-details{
     float: left;
