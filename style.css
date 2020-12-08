@@ -63,6 +63,8 @@ a:hover{
     display: block;
     padding: 5px 0px;
     display: none;
+    background: #909090 url(images/menu_dropdown_bg.png) repeat-x 0 0;
+    z-index: 100;
 }
 #nav-menu{
     position: relative;
@@ -113,6 +115,7 @@ a:hover{
 }
 .row{
     display: flex;
+    z-index: 90;
 }
 .img-container{
     position: relative;
