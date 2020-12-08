@@ -222,3 +222,12 @@ p{
     margin: 0 auto;
     margin-top: 13px;
 }
+/* specific rules for contact page */
+.row .col1 > a{
+    font-size: 13px;
+    color: #5c5c5c;
+    background: linear-gradient(#fff, #d3cece);
+    width: 122px;
+    height: 36px;
+    display: block;    
+}
