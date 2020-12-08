@@ -231,3 +231,14 @@ p{
     height: 36px;
     display: block;
 }
+.cube{
+    width: 248px;
+    height: 142px;
+    background: #fff url(images/cube_bg.png) repeat-x center top;
+    margin-bottom: 30px;
+    padding: 18px 22px 15px
+}
+.cube p{
+    font-size: 13px;
+    color: #6d6d6d;
+}
