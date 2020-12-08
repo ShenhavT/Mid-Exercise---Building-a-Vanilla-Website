@@ -79,6 +79,7 @@ a:hover{
 #nav-menu>ul>#carrier:hover>#carrier-dropdown,
 #nav-menu>ul>#news:hover>#news-dropdown{
     display: block;
+    position: absolute;
 }
 #searchBox-continer{
     position: absolute;
