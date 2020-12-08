@@ -124,6 +124,7 @@ a:hover{
 }
 .text-continer{
     position: absolute;
+    box-sizing: content-box;
     bottom: 0px;
     padding: 10px;
     left: 38px;
@@ -134,6 +135,7 @@ a:hover{
 }
 p{
     color:white;
+    margin:0 auto;
 }
 
 .header-text{
