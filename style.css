@@ -245,3 +245,6 @@ p{
 .col2 p{
     color: #6d6d6d;  
 }
+.input-button > input{
+    background: linear-gradient(0deg, rgba(135,167,191,1) 0%, rgba(7,153,219,1) 83%);
+}
