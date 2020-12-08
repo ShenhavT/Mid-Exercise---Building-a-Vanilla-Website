@@ -211,9 +211,6 @@ p{
 .gaz-direction:hover{
     color: #005CA0;
 }
-#img-row2{
-
-}
 #img-israel{
     float: left;
 }
@@ -224,4 +221,5 @@ p{
     width: 900px;
     height: 100%;
     margin: 0 auto;
+    margin-top: 13px;
 }
