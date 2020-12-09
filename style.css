@@ -8,7 +8,7 @@ body{
     margin: 0px;
     background: #fff url(images/header_bg.png) repeat-x center top
 }
-#container{
+.container{
     width: 900px;
     margin: 0 auto;
     padding-bottom: 30px; /*to work*/
@@ -37,7 +37,7 @@ ul>li>a{
     font-weight: bold;
     height: 100%;
 }
-#header .logo-paz{
+.header .logo-paz{
     display: block;
     width: 142px;
     height: 93px;
@@ -56,7 +56,7 @@ ul>li>a{
     left: 180px;
     text-decoration: none;
 }
-#header{
+.header{
     position: relative;
     background:url(images/header_bg.png);
     height: 105px;
@@ -170,7 +170,7 @@ p{
     clear: both;
     display: table;
 }
-#fixedfooter {
+.fixedfooter {
     width: 100%;
     height: 38px;
     position: fixed;
@@ -216,7 +216,7 @@ p{
 .menu-dwonbar >ul{
     display: flex;
 }
-#fixedfooter .container {
+.fixedfooter .downbar-container {
     width: 900px;
     height: 100%;
     margin: 0 auto;
