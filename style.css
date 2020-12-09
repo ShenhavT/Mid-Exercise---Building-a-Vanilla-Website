@@ -247,4 +247,19 @@ p{
 }
 .input-button > input{
     background: linear-gradient(0deg, rgba(135,167,191,1) 0%, rgba(7,153,219,1) 83%);
+    font-size: 14px;
+    color: white;
+    border: 0px;
+    border-top-right-radius: 6px;
+}
+#form-contact{
+    background: -webkit-linear-gradient(top, #ffffff 0%,#f7f7f7 49%,#f7f7f7 51%,#ececec 100%);
+    border-top-right-radius: 20px;
+    border-style: solid solid none solid;
+    border-width: 1px;
+    border-color: #CCCCCC;
+    width: 347px;
+    min-height: 332px;
+    padding: 12px 18px;
+
 }
