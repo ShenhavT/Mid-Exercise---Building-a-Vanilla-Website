@@ -165,6 +165,12 @@ p{
     float: left;
     padding-left:12px;
 }
+.breadcrumbs{
+    font-size: 12px;
+    color: #5c5c5c;
+    margin-bottom: 25px;
+}
+ 
 .clearfix::after{
     content: "";
     clear: both;
