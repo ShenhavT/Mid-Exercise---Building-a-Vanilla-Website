@@ -240,13 +240,25 @@ p{
 .cube{
     width: 248px;
     height: 142px;
-    background: #fff url(images/cube_bg.png) repeat-x center top;
+    background: #fff url(images/cube_bg.png)  no-repeat 0 0;
     margin-bottom: 30px;
-    padding: 18px 22px 15px
+    padding: 18px 22px 15px;
 }
 .cube p{
+    color: #005ca0;
+    font-weight: bold;
+    font-size: 15px;
+}
+.paz-details  p{
     font-size: 13px;
     color: #6d6d6d;
+}
+.cube .paz-more-deatils{
+    font-weight: normal;
+}
+.col2{
+    margin-right: 22px;
+    margin-left: 40px;
 }
 .col2 p{
     color: #6d6d6d;  
@@ -287,4 +299,7 @@ label{
     width:75px;
     display: inline-block;
 
+}
+.col3{
+    margin-top: 56px;
 }
