@@ -230,6 +230,7 @@ p{
 }
 /* specific rules for contact page */
 .row .col1 > a{
+    padding-right: 18px;
     font-size: 13px;
     color: #5c5c5c;
     background: linear-gradient(#fff, #d3cece);
@@ -262,6 +263,23 @@ p{
 }
 .col2 p{
     color: #6d6d6d;  
+}
+.col1> span{
+    color:#005ca0;
+    display: flex;
+    position: absolute;
+}
+.fields{
+    width: 245px;
+    margin: 10px auto 0;   
+}
+textarea{
+    float: right;
+    color: #6d6d6d;
+    width: 235px;
+    height: 100px;
+    padding: 3px;
+    border: 1px solid #808992
 }
 .input-button > input{
     background: linear-gradient(0deg, rgba(135,167,191,1) 0%, rgba(7,153,219,1) 83%);
