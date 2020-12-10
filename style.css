@@ -179,7 +179,6 @@ p{
     text-decoration: underline;
     color: #005CA0;
 }
- 
 .clearfix::after{
     content: "";
     clear: both;
@@ -266,12 +265,19 @@ p{
 .cube .paz-more-deatils{
     font-weight: normal;
 }
+.title-before-from{
+    font-size: 15px;
+    font-weight: bold;
+    border-bottom: 1px solid #cbcbcb;
+    margin-bottom: 12px;
+    padding-bottom: 4px;
+}
 .col2{
     margin-right: 22px;
     margin-left: 40px;
 }
 .col2 p{
-    color: #6d6d6d;  
+    color: #6d6d6d;
 }
 .col1> span{
     color:#005ca0;
