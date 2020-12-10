@@ -170,6 +170,15 @@ p{
     color: #5c5c5c;
     margin-bottom: 25px;
 }
+.breadcrumbs>a{
+    font-size: 12px;
+    color: #5c5c5c;
+    margin-bottom: 25px;
+}
+.breadcrumbs>a:hover{
+    text-decoration: underline;
+    color: #005CA0;
+}
  
 .clearfix::after{
     content: "";
