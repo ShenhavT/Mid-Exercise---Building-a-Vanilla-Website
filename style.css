@@ -273,6 +273,14 @@ p{
     width: 245px;
     margin: 10px auto 0;   
 }
+.field  input{
+    margin-bottom: 5px;
+}
+.validator-div{
+    color:red;
+    font-size: 12px;
+    display: none;
+}
 textarea{
     float: right;
     color: #6d6d6d;
